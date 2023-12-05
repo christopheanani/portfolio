@@ -7,7 +7,7 @@ export default function Avatar() {
     <div>
       <div className="relative  w-[80%] m-auto">
         <img
-          src="/public/chris.png"
+          src="/public/images/chris.png"
           alt="avatar"
           className=" m-auto border-2 border-green-600 rounded-full"
           width={100}
