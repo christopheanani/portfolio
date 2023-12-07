@@ -7,8 +7,8 @@ import ScrollDown from "./ScrollDown";
 
 export default function HeroSection() {
   return (
-    <div className=" h-screen">
-      <div className="bg-black/90" >
+    <div className=" h-screen ">
+      <div className="bg-black/90 h-screen" >
       <NavBar/>
       <Avatar/>
       <ScrollDown/>

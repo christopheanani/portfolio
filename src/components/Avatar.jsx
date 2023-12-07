@@ -1,13 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from "react";
+import AvatarImg from "/public/images/chris.png";
 
 export default function Avatar() {
   return (
     <div>
       <div className="relative  w-[80%] m-auto">
         <img
-          src="/public/images/chris.png"
+          src={AvatarImg}
           alt="avatar"
           className=" m-auto border-2 border-green-600 rounded-full"
           width={100}

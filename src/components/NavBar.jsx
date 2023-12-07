@@ -1,12 +1,23 @@
 // import React from 'react'
+import Avatar from "/public/images/chris.png";
 
 export default function NavBar() {
   return (
-    <div className="mb-32 pt-4 flex justify-center w-[80%] m-auto">
-      <div className="lg:text-5xl text-white">
-        <h1>ca..</h1>
+    <div className="mb-32 py-3 flex justify-between lg:w-[80%] m-auto items-center">
+      <div className=" flex justify- items-center">
+        <div>
+          <img
+            src={Avatar}
+            alt="avatar"
+            className="me-5 border-2 border-green-600 rounded-full"
+            width={50} />
+        </div>
+        <div className="text-white lg:text-sm">Christophe ANANI
+        </div>
+       
       </div>
-      <nav className="flex justify-center  lg:w-1/2 m-auto">
+
+      <nav className="flex text-center">
         {[
           ["Projets", "/projets"],
           ["Compétences", "/competences"],
@@ -22,15 +33,6 @@ export default function NavBar() {
           </a>
         ))}
       </nav>
-
-      <div className="text-white">
-        <button
-          type="button"
-          className="button bg-[#3b3b3b] w-[10rem] py-2 rounded-full"
-        >
-          Light
-        </button>
-      </div>
     </div>
   );
 }
